@@ -1,6 +1,6 @@
 
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
 from twilio.rest import Client
@@ -14,7 +14,7 @@ time=str(date_time[3])+":"+str(date_time[4])
 
 
 
-load_dotenv()
+#load_dotenv()
 
 app = Flask(__name__)
 TWILIO_SID = "ACaffe33385ebba23a9fb41bd774e87d2e"
